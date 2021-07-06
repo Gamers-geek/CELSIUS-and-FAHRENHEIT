@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 class converter {
   public static void main(String[] args) {
-    @SuppressWarnings("resource")
+    convertir()
+  }
+	
+  public static void convertir() {
+	  @SuppressWarnings("resource")
 	Scanner sc = new Scanner(System.in);
   
     double aConvertir, convertit=0;
@@ -51,7 +55,6 @@ class converter {
     }while(reponse == 'O');
     
   System.out.println("Au revoir !");
-   
   }
     
   public static double arrondi(double A, int B) {
